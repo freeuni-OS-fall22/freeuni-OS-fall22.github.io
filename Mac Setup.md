@@ -5,11 +5,13 @@
 $ xcode-select -p
 /Library/Developer/CommandLineTools
 $ sudo rm -rf /Library/Developer/CommandLineTools
-# verify uninstall
+```
+2. verify uninstall
+```bash
 $ xcode-select -p
 xcode-select: error: unable to get active developer directory...
 ```
-2. https://developer.apple.com/download/all/?q=command ამ ლინკზე გადადით, შეიყვანეთ apple ID და მოძებნეთ "Command Line Tools for Xcode 13.4"
+3. https://developer.apple.com/download/all/?q=command ამ ლინკზე გადადით, შეიყვანეთ apple ID და მოძებნეთ "Command Line Tools for Xcode 13.4"
 ![image](https://user-images.githubusercontent.com/6597974/192002676-9678ef9a-4240-4bf6-8e8e-0e2a9eb76dd7.png)
-3. გადმოწერეთ ეს dmg და დააყენეთ
-4. `xcode-install -p`-ით გადაამოწმეთ რო მართლა დაყენდა და ამის მერე სტანდარტულ ინსტრუქციას მიყევით.
+4. გადმოწერეთ ეს dmg და დააყენეთ
+5. `xcode-install -p`-ით გადაამოწმეთ რო მართლა დაყენდა და ამის მერე სტანდარტულ ინსტრუქციას მიყევით.
