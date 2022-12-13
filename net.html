@@ -23,8 +23,8 @@ card (NIC).
 
 <div class="prereq">
 <p>Before writing code, you may find it helpful to review "Chapter 5: Interrupts and
-device drivers" in the <a
-href="../xv6/book-riscv-rev3.pdf">xv6 book</a>.
+device drivers" in the <a href="https://pdos.csail.mit.edu/6.S081/2022/xv6/book-riscv-rev3.pdf">
+	xv6 book</a>.
 </div>
    
 <p>You'll use a network device called the E1000 to handle network
@@ -64,7 +64,7 @@ transmitting and receiving packets, which you'll fill in.
 <tt>kernel/e1000_dev.h</tt> contains definitions for
 registers and flag bits defined by the E1000 and
 described in the Intel E1000 
-<a href="../readings/8254x_GBe_SDM.pdf">Software Developer's Manual</a>.
+<a href="https://pdos.csail.mit.edu/6.S081/2022/readings/8254x_GBe_SDM.pdf">Software Developer's Manual</a>.
 <tt>kernel/net.c</tt> and <tt>kernel/net.h</tt>
 contain a simple network stack that implements the
 <a href="https://en.wikipedia.org/wiki/Internet_Protocol">IP</a>, <a href="https://en.wikipedia.org/wiki/User_Datagram_Protocol">UDP</a>, and <a href="https://en.wikipedia.org/wiki/Address_Resolution_Protocol">ARP</a> protocols.
@@ -86,7 +86,7 @@ You are done when <tt>make grade</tt> says your
 solution passes all the tests.
 </div>
 <div class="prereq">
-  <p>While writing your code, you'll find yourself referring to the E1000 <a href="../readings/8254x_GBe_SDM.pdf">Software Developer's Manual</a>. Of particular help may be the following sections:
+  <p>While writing your code, you'll find yourself referring to the E1000 <a href="https://pdos.csail.mit.edu/6.S081/2022/readings/8254x_GBe_SDM.pdf">Software Developer's Manual</a>. Of particular help may be the following sections:
     <ul>
       <li>Section 2 is essential and gives an overview of the entire device.</li>
       <li>Section 3.2 gives an overview of packet receiving.</li>
@@ -98,7 +98,7 @@ solution passes all the tests.
 
 
 <p>Browse the E1000 <a
-href="../readings/8254x_GBe_SDM.pdf">Software Developer's Manual</a>.
+href="https://pdos.csail.mit.edu/6.S081/2022/readings/8254x_GBe_SDM.pdf">Software Developer's Manual</a>.
 This manual covers several closely related Ethernet controllers.
 QEMU emulates the 82540EM. Skim Chapter 2 now to get a feel for
 the device.  To write your driver, you'll need to be familiar with Chapters 3
